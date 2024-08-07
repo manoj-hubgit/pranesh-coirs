@@ -1,0 +1,95 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+#title-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  background-color: rgb(60, 37, 25);
+}
+
+#title-card img {
+  
+  object-fit: cover;
+  margin-left: 30px;
+}
+#header-logo{
+   border-radius: 50%;
+   height: 60px;
+   width: 60px;
+}
+.header-title ul {
+  list-style: none;
+  font-size: 1rem;
+  width: 200px;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+.header-title a {
+  padding: 10px;
+  color: rgb(222, 180, 157);
+  text-decoration: none;
+  width: 100px;
+  border-radius: 0.2rem;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+.header-title a:hover {
+  text-shadow: rgb(0, 0, 0) 10px 10px 20px;
+  color: rgb(229, 229, 229);
+  background-color: rgb(78, 53, 36);
+}
+.hamBurger {
+  display: none;
+  padding-right: 1rem;
+  height: 2rem;
+  width: 3rem;
+  align-items: center;
+  cursor: pointer;
+}
+.hamBurger img{
+  height: 50px;
+  width: 50px;
+}
+#sidebar {
+  display: none;
+  position: fixed;
+  width: 50%;
+  opacity: 0.9;
+  background-color: rgb(53, 32, 32);
+  margin-left: 50%;
+  text-align: center;
+  top: 1;
+  right: 0;
+  list-style: none;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  z-index: 2;
+}
+
+#sidebar ul {
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: center;
+ padding: 0;
+}
+#sidebar li {
+  padding-top: 3rem;
+  list-style: none;
+  justify-content: center;
+}
+
+#sidebar a {
+  text-decoration: none;
+  color: aliceblue;
+}
+@media (max-width: 768px){
+    .hamBurger {
+        display: block;
+      }
+}

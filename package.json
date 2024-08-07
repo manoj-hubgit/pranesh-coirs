@@ -1,0 +1,18 @@
+{
+  "name": "pranesh-coirs",
+  "version": "1.0.0",
+  "description": "parnesh-coirs is a simple webiste to show the things the have in their business ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "manoj",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
